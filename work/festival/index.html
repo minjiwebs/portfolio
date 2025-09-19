@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>보현산 별빛축제</title>
+
+    <!-- meta 검색에서 유용한 태그-->
+    <meta name="keywords" content="보현산별빛축제" />
+    <meta name="description" content="우주를 담다, 쏟아지는 별을 품다" />
+
+    <!-- opengraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="보현산별빛축제" />
+    <meta
+      property="og:url"
+      content="https://www.BohyeonStarlightFestival.com"
+    />
+    <meta property="og:image" content="images/Star_img.jpg" />
+    <meta property="og:description" content="우주를 담다, 쏟아지는 별을 품다" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/starlogo_icon.png"
+      type="image/icon"
+    />
+
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/star.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!--   <link rel="stylesheet" href="css/star.css"> -->
+
+    <!-- js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.19/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+
+    <script defer src="js/common.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <div class="inner">
+          <h1>
+            <a href="index.html">
+              <img src="images/starlogo.png" alt="starlogo" />
+            </a>
+          </h1>
+
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="#">별빛축제 소개</a>
+                <ul class="depth2">
+                  <li><a href="#">축제 개요</a></li>
+                  <li><a href="#">행사 안내 책자</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">프로그램 안내</a>
+                <ul class="depth2">
+                  <li><a href="#">스타파티</a></li>
+                  <li><a href="#">천문학 강연</a></li>
+                  <li><a href="#">체험 프로그램</a></li>
+                  <li><a href="#">보현산 천문대 관람</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">행사 일정</a></li>
+
+              <li>
+                <a href="#">사전 신청</a>
+                <ul class="depth2">
+                  <li>
+                    <a href="#">보현산 천문대<br />참가신청</a>
+                  </li>
+                  <li>
+                    <a href="#">자원봉사자<br />참가신청</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">공지사항</a>
+                <ul class="depth2">
+                  <li>
+                    <a href="#">보현산 천문대<br />신청확인</a>
+                  </li>
+                  <li>
+                    <a href="#">자원봉사자<br />신청확인</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">오시는 길</a>
+                <ul class="depth2">
+                  <li><a href="#">교툥 안내</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- gnb -->
+
+            <button class="ham">전체메뉴보기</button>
+            <button class="ham2">전체메뉴보기</button>
+
+            <div class="mgnb_wrap">
+              <img src="images/mgnb_logo.png" alt="보현산 별빛축제" />
+              <ul class="mgnb">
+                <li>
+                  <a href="#">별빛축제 소개</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">축제 개요</a></li>
+                    <li><a href="#">행사 안내 책자</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">프로그램 안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">스타파티</a></li>
+                    <li><a href="#">천문학 강연</a></li>
+                    <li><a href="#">체험 프로그램</a></li>
+                    <li><a href="#">보현산 천문대 관람</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">행사 일정</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">행사 일정</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">사전 신청</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">보현산 천문대 참가신청</a></li>
+                    <li><a href="#">자원봉사자 참가신청</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">공지사항</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">보현산 천문대 신청확인</a></li>
+                    <li><a href="#">자원봉사자 신청확인</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">오시는 길</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">오시는 길</a></li>
+                    <li><a href="#">교툥 안내</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- mgnb_wrap -->
+            </div>
+          </nav>
+        </div>
+        <div class="depth2_bg"></div>
+      </header>
+      <!-- header -->
+
+      <main id="main">
+        <section class="main_visual">
+          <img src="images/main_visual1.png" alt="보현산 천문대 그림파일" />
+          <img class="star1" src="images/main_visual2.png" alt="별자리" />
+          <img class="star2" src="images/main_visual3.png" alt="별똥별" />
+
+          <h2>
+            <img
+              class="animate__animated animate__flash"
+              src="images/logo.png"
+              alt="보현산 별빛축제"
+            />
+          </h2>
+
+          <div class="constelacao"></div>
+          <div class="chuvaMeteoro"></div>
+
+          <div class="icon">
+            <div class="inner">
+              <a href="#sec_intro" class="intro_icon">
+                <div class="icon_img">
+                  <img src="images/icon1.png" alt="축제소개" />
+                </div>
+                <div class="icon_txt">
+                  <h3>별빛축제 소개</h3>
+                </div> </a
+              ><!-- intro_icon -->
+
+              <a href="#sec_program" class="program_icon">
+                <div class="icon_img">
+                  <img src="images/icon2.png" alt="프로그램안내" />
+                </div>
+                <div class="icon_txt">
+                  <h3>프로그램 안내</h3>
+                </div> </a
+              ><!-- program_icon -->
+
+              <a href="#sec_schedule" class="schedule_icon">
+                <div class="icon_img">
+                  <img src="images/icon3.png" alt="행사 일정표" />
+                </div>
+                <div class="icon_txt">
+                  <h3>행사 일정표</h3>
+                </div> </a
+              ><!-- program_icon -->
+
+              <a href="#sec_notice" class="reservation_icon">
+                <div class="icon_img">
+                  <img src="images/icon4.png" alt="사전예약" />
+                </div>
+                <div class="icon_txt">
+                  <h3>사전예약</h3>
+                </div> </a
+              ><!-- program_icon -->
+
+              <a href="#sec_notice" class="notice_icon">
+                <div class="icon_img">
+                  <img src="images/icon5.png" alt="공지사항" />
+                </div>
+                <div class="icon_txt">
+                  <h3>공지사항</h3>
+                </div> </a
+              ><!-- program_icon -->
+            </div>
+            <!-- inner -->
+          </div>
+        </section>
+
+        <div class="box1">
+          <div id="sec_intro"></div>
+          <section class="intro">
+            <div class="tit">
+              <img src="images/3staricon.png" alt="주제꾸밈아이콘" />
+              <h4>별빛축제 소개</h4>
+            </div>
+            <img
+              class="introduce_txtbg"
+              src="images/introduce_txt.png"
+              alt=""
+            />
+            <p>
+              <span>별의 도시 “영천"</span>, 아름다운 밤 하늘을 보유한 이곳
+              영천으로 여러분을 초대합니다!<br />
+              제23회 영천 보현산 별빛 축제의 주제는
+              <span>'우주를 담다, 쏟아지는 별을 품다’</span> 입니다.<br />
+              <span
+                >아이들에게는 천문 · 우주 · 과학 분야에 대한 꿈과 희망을 심어
+                주는 동시에<br />
+                다양한 프로그램을 통해 가족과 행복한 시간을 보낼 수 있도록
+                준비하였습니다.<br
+              /></span>
+              영천의 아름다운 밤하늘 아래, 소중한 사람들과 함께 별빛 가득한
+              축제를 즐겨보세요.<br />
+              보현산 별빛축제가 여러분의 특별한 기억 한자락을 만들어
+              드립니다!<br />
+            </p>
+            <div class="constelacao"></div>
+            <div class="chuvaMeteoro"></div>
+          </section>
+
+          <section class="program" id="sec_program">
+            <div class="tit">
+              <img src="images/3staricon.png" alt="주제꾸밈아이콘" />
+              <h4>시그니처 프로그램</h4>
+            </div>
+            <div class="program_more">
+              <a href="#" class="btn_more">더보기</a>
+            </div>
+            <div class="inner">
+              <ul class="program_box1" data-aos="fade-left">
+                <li class="program1">
+                  <a href="#">
+                    <img src="images/program1.jpg" alt="program1" />
+                    <h5>스타파티</h5>
+                    <div class="hover">
+                      <p>
+                        낮에는 태양관측과 설치된 다양한 조형물을 찾아 상품을
+                        받고<br />
+                        밤에는 여러가지 천체를 관측할 수 있는 프로그램입니다.<br />
+                        * 천체망원경에 임의로 손대지 마시고, 망원경 옆에 있는
+                        진행자의 말을 잘 따라주세요.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="program2">
+                  <a href="#">
+                    <img src="images/program2.jpg" alt="program2" />
+                    <h5>천문학 강연</h5>
+                    <div class="hover">
+                      <p>
+                        전문적인 지식을 가진 박사님과 천문대장님의 강연을
+                        통해<br />
+                        해당 분야 지식에 대해 더 깊이 배울 수 있는 기회를
+                        마련하고,<br />
+                        질의응답을 통해 궁금한 점을 바로 해소 할 수 있는
+                        프로그램<br />
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="program_box2" data-aos="fade-right">
+                <li class="program3">
+                  <a href="#">
+                    <img src="images/make1.jpg" alt="make1" />
+                    <h5>탄소중립 무드등</h5>
+                    <div class="hover">
+                      <p>내 손으로 만드는 신재생 에너지</p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="program4">
+                  <a href="#">
+                    <img src="images/make2.jpg" alt="make2" />
+                    <h5>스탠드 태양계 입체액자</h5>
+                    <div class="hover">
+                      <p>색연필과 행성스티커로 나만의 액자 만들기</p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="program5">
+                  <a href="#">
+                    <img src="images/make3.jpg" alt="make3" />
+                    <h5>3D 입체 퍼즐 우주탐험</h5>
+                    <div class="hover">
+                      <p>
+                        우드락을 활용한 우주 정거장,<br />
+                        우주탐사선 입체 퍼즐 맞추기
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="program_box3" data-aos="fade-left">
+                <li class="program6">
+                  <a href="#">
+                    <img src="images/program3.jpg" alt="program6" />
+                    <h5>오로라 체험</h5>
+                    <div class="hover">
+                      <p>
+                        태양계 탄생의 비밀과 다양한 과학적 지식을 통해<br />
+                        직접 몸으로 즐길 수 있는 블랙라이트 오로라 체험
+                      </p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="program7">
+                  <a href="#">
+                    <img src="images/program4.jpg" alt="program6" />
+                    <h5>보현산 천문대 관람</h5>
+                    <div class="hover">
+                      <p class="hover_bottom">
+                        보현산 천문대에서 즐기는 보현산 천문대 관측 프로그램<br />
+                        <br />
+                        • 운행 구간<br />
+                        축제장 → 보현산 천문대<br />
+
+                        • 운행 시간<br />
+                        총 소요시간 2시간 (이동 시간 및 프로그램 시간 포함)
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="swiper program_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/m_program1.jpg" alt="m_program1" />
+                    <h5>스타파티</h5>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/m_program2.jpg" alt="m_program1" />
+                    <h5>천문학 강연</h5>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/m_make1.jpg" alt="m_program4" />
+                    <h5>탄소중립 무드등</h5>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/m_make2.jpg" alt="m_program5" />
+                    <h5>스탠드 태양계 입체액자</h5>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/m_make3.jpg" alt="m_program6" />
+                    <h5>3D 입체 퍼즐 우주탐험</h5>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/m_program3.jpg" alt="m_program6" />
+                    <h5>오로라 체험</h5>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/m_program4.jpg" alt="m_program7" />
+                    <h5>보현산 천문대 관람</h5>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="banner">
+          <img src="images/banner.png" alt="축제주제배너" />
+        </div>
+
+        <div class="box2">
+          <div class="bg_img">
+            <img src="images/box2_bg_ai/bg2-1.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star1.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star2.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star3.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star4.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star5.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star6.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star7_moon.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star8.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star9.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star10.png" alt="하단 배경" />
+            <img src="images/box2_bg_ai/star11.png" alt="하단 배경" />
+          </div>
+
+          <div class="box2_txt">
+            <section class="schedule" id="sec_schedule">
+              <div class="inner">
+                <div class="tit">
+                  <img src="images/3staricon.png" alt="주제꾸밈아이콘" />
+                  <h4>행사 일정표</h4>
+                </div>
+                <div class="schedule_txt">
+                  <div class="tabs">
+                    <div class="inner">
+                      <button class="active">10월 23일 (금)</button>
+                      <button>10월 24일 (토)</button>
+                      <button>10월 25일 (일)</button>
+                    </div>
+                  </div>
+                  <!-- tabs -->
+
+                  <div class="schedule_table">
+                    <table>
+                      <caption>
+                        10.23 일정표
+                      </caption>
+                      <tbody>
+                        <tr>
+                          <th>시간</th>
+                          <th>프로그램</th>
+                        </tr>
+
+                        <tr>
+                          <td>14:00</td>
+                          <td>무대 준비 및 리허설</td>
+                        </tr>
+                        <tr>
+                          <td>14:30 - 15:30</td>
+                          <td>버블 매직쇼 - 서진교</td>
+                        </tr>
+                        <tr>
+                          <td>15:30 - 16:30</td>
+                          <td>버스킹 공연</td>
+                        </tr>
+                        <tr>
+                          <td>16:30 - 17:30</td>
+                          <td>과학 뮤지컬 : 뉴트의 초록 우주를 찾아서</td>
+                        </tr>
+                        <tr>
+                          <td>17:30 - 18:00</td>
+                          <td>장내 정리 및 개막식 리허설</td>
+                        </tr>
+                        <tr>
+                          <td>18:00 - 19:00</td>
+                          <td>버스킹 공연</td>
+                        </tr>
+                        <tr>
+                          <td>19:00 - 21:00</td>
+                          <td>개막식 퍼포먼스 / 드론쇼 / 축하 공연</td>
+                        </tr>
+                        <tr>
+                          <td>21:00 - 22:00</td>
+                          <td>별이랑 아이컨택</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <table>
+                      <caption>
+                        10.24 일정표
+                      </caption>
+                      <tbody>
+                        <tr>
+                          <th>시간</th>
+                          <th>프로그램</th>
+                        </tr>
+
+                        <tr>
+                          <td>14:00</td>
+                          <td>무대 준비 및 리허설</td>
+                        </tr>
+                        <tr>
+                          <td>14:30 - 15:30</td>
+                          <td>버블 매직쇼 – 권혁민</td>
+                        </tr>
+                        <tr>
+                          <td>15:30 - 16:30</td>
+                          <td>천문학 강연(우주먼지)</td>
+                        </tr>
+                        <tr>
+                          <td>16:30 - 17:30</td>
+                          <td>과학 뮤지컬 : 뉴트의 초록 우주를 찾아서</td>
+                        </tr>
+                        <tr>
+                          <td>17:30 - 18:00</td>
+                          <td>지역 예술인 공연</td>
+                        </tr>
+                        <tr>
+                          <td>18:00 - 19:00</td>
+                          <td>버스킹 공연</td>
+                        </tr>
+                        <tr>
+                          <td>19:00 - 21:00</td>
+                          <td>축하 공연</td>
+                        </tr>
+                        <tr>
+                          <td>21:00 - 22:00</td>
+                          <td>별이랑 아이컨택</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <table>
+                      <caption>
+                        10.25 일정표
+                      </caption>
+                      <tbody>
+                        <tr>
+                          <th>시간</th>
+                          <th>프로그램</th>
+                        </tr>
+
+                        <tr>
+                          <td>14:00</td>
+                          <td>무대 준비 및 리허설</td>
+                        </tr>
+                        <tr>
+                          <td>14:30 - 15:30</td>
+                          <td>버블 매직쇼 – 신명준</td>
+                        </tr>
+                        <tr>
+                          <td>15:30 - 16:30</td>
+                          <td>천문학 강연(별자리)</td>
+                        </tr>
+                        <tr>
+                          <td>16:30 - 17:30</td>
+                          <td>과학 뮤지컬 : 뉴트의 초록 우주를 찾아서</td>
+                        </tr>
+                        <tr>
+                          <td>17:30 - 18:00</td>
+                          <td>지역 예술인 공연</td>
+                        </tr>
+                        <tr>
+                          <td>18:00 - 19:00</td>
+                          <td>버스킹 공연</td>
+                        </tr>
+                        <tr>
+                          <td>19:00 - 21:00</td>
+                          <td>축하 공연</td>
+                        </tr>
+                        <tr>
+                          <td>21:00 - 22:00</td>
+                          <td>별이랑 아이컨택</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- schedule_list -->
+                </div>
+                <!-- schedule_txt -->
+              </div>
+            </section>
+            <!-- schedule -->
+
+            <div id="sec_notice"></div>
+            <section class="notice">
+              <div class="tit">
+                <img src="images/3staricon.png" alt="주제꾸밈아이콘" />
+                <h4>공지사항</h4>
+              </div>
+
+              <div class="notice_box">
+                <div class="inner">
+                  <div class="notice_list">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <span>공지</span>
+                          <span>2026년 23회 보현산 천문대 사전 신청 확인</span>
+                          <span>2026.10.08</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <span>공지</span>
+                          <span>2026년 23회 별이랑 달이랑 사전 신청 확인</span>
+                          <span>2026.10.08</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <span>공지</span>
+                          <span>2026년 23회 버스킹 공연 라인업</span>
+                          <span>2026.10.08</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <span>공고</span>
+                          <span>2026년 23회 자원봉사자 참가 신청 확인</span>
+                          <span>2026.10.06</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="reservation">
+                    <a href="#">
+                      <strong>예약 신청</strong>
+                      <p>
+                        별의 도시 "영천",<br />
+                        아름다운 밤 하늘을 보유한<br />
+                        영천으로 여러분을 초대합니다!
+                      </p>
+                      <p>
+                        접수 일정<br />
+                        2026.09.04 ~ 선착순 접수
+                      </p>
+                      <img src="images/reservationicon.png" alt="예약 아이콘" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <a name="map"></a>
+            <section class="map">
+              <div class="tit">
+                <img src="images/3staricon.png" alt="주제꾸밈아이콘" />
+                <h4>오시는 길</h4>
+              </div>
+
+              <div class="map_txt">
+                <div class="inner">
+                  <p class="map_txt_address">
+                    주소 : 경북 영천시 화북면 별빛로 681-32
+                  </p>
+
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805.5238050867763!2d128.99687139002467!3d36.139894738173496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3566f4d734ce1f59%3A0x5f46457b74282c4d!2z6rK97IOB67aB64-EIOyYgeyynOyLnCDtmZTrtoHrqbQg67OE67mb66GcIDY4MS0zMg!5e0!3m2!1sko!2skr!4v1737428657626!5m2!1sko!2skr"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+
+                  <ul>
+                    <li>
+                      <img src="images/staricon.png" alt="별아이콘" />자가용
+                      이용 시
+                    </li>
+                    <li>
+                      • 경부고속도로 영천IC → 시내 남문4거리(청송방면) →
+                      북영천IC → 화남농협 → 화북면사무소 → 옥계삼거리(직진) →
+                      셔틀버스탑승
+                    </li>
+                  </ul>
+
+                  <ul>
+                    <li>
+                      <img src="images/staricon.png" alt="별아이콘" />서울에서
+                      대중교통 이용 시
+                    </li>
+                    <li>
+                      • 기차 : 서울역(KTX : 1시간 50분) → 동대구역(무궁화호 :
+                      30분) → 영천역
+                    </li>
+                    <li>
+                      • 고속버스 : 강남 고속버스터미널 → 영천시외버스터미널(1일
+                      3회 운행)
+                    </li>
+                  </ul>
+
+                  <ul>
+                    <li>
+                      <img
+                        src="images/staricon.png"
+                        alt="별아이콘"
+                      />영천시내에서 대중교통으로 오기
+                    </li>
+                    <li>
+                      • 버스 : 영천시외버스터미널앞 → 정각리 별빛마을(1일 10회
+                      운행, 배차간격 90분, 1시간 소요)
+                    </li>
+                    <li>
+                      • 택시 : 영천시내 → 정각3거리(별빛마을 입구) →
+                      보현산천문과학관(40분 소요)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="more">
+            <img src="images/box2_bg_ai/bg2-2.png.jpg" alt="하단 배경" />
+
+            <div class="tit">
+              <img src="images/3staricon.png" alt="주제꾸밈아이콘" />
+              <span>영천 보현산 별빛축제 더 알아보기</span>
+
+              <a
+                href="https://www.youtube.com/@%EC%98%81%EC%B2%9C%EB%B3%B4%ED%98%84%EC%82%B0%EB%B3%84%EB%B9%9B%EC%B6%95%EC%A0%9C"
+              >
+                유튜브 바로가기
+              </a>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer id="footer">
+        <div class="inner">
+          <div class="footer_logo">
+            <img src="images/footer_logo.png" alt="로고" />
+          </div>
+          <div class="footer_txt">
+            <address>
+              (우 38812) 경북 영천시 화북면 별빛로 681-32 보현산 천문과학관
+              일원<br />
+              영천 보현산 별빛축제 운영사무국 : 070-4232-1865<br />
+              개인정보보호책임자 : 박민지<br />
+              <span
+                >별을 보기 위해 불빛을 최소화 하여 축제장 주변이 다소
+                어둡습니다. <br />
+                별빛축제 이용에 참고해주세요.</span
+              >
+              <p class="copy">
+                Copyright 영천보현산별빛축제 all right reserved.
+              </p>
+            </address>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
