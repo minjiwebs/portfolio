@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>테일캐칭</title>
+
+    <!-- meta 검색에서 유용한 태그-->
+    <meta name="keywords" content="테일캐칭" />
+    <meta name="description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- opengraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="테일캐칭" />
+    <meta property="og:url" content="https://www.tailcatching.com" />
+    <meta property="og:image" content="images/common/tailcatching_img.jpg" />
+    <meta property="og:description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/main/tail.png" type="image/icon" />
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <div class="inner">
+          <h1>
+            <a href="index.html">
+              <img src="images/common/logo.png" alt="tailcatching" />
+            </a>
+          </h1>
+
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="sub/intro.html">매장소개</a>
+                <ul class="depth2">
+                  <li><a href="sub/intro.html">매장소개</a></li>
+                  <li><a href="sub/intro.html">놀이시설</a></li>
+                  <li><a href="sub/intro.html">시설안내</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="sub/character.html">이용안내</a>
+                <ul class="depth2">
+                  <li><a href="sub/character.html">캐릭터소개</a></li>
+                  <li><a href="sub/character.html">이용 요금</a></li>
+                  <li><a href="sub/character.html">단체 예약</a></li>
+                  <li><a href="sub/character.html">오시는 길</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="sub/notice.html">소식</a>
+                <ul class="depth2">
+                  <li><a href="sub/notice.html">공지사항</a></li>
+                  <li><a href="sub/notice.html">공연 일정</a></li>
+                  <li><a href="sub/notice.html">이벤트</a></li>
+                  <li><a href="sub/notice.html">갤러리</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">고객센터</a>
+                <ul class="depth2">
+                  <li><a href="#">문의하기</a></li>
+                  <li><a href="#">자주묻는질문</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">창업안내</a>
+                <ul class="depth2">
+                  <li><a href="#">창업안내</a></li>
+                  <li><a href="#">컨설팅&시공</a></li>
+                  <li><a href="#">상담신청</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- gnb -->
+
+            <button class="ham">전체메뉴보기</button>
+            <div class="dim"></div>
+
+            <div class="mgnb_wrap">
+              <ul class="mgnb">
+                <li>
+                  <a href="sub/intro.html">매장소개</a>
+                  <ul class="mdepth2">
+                    <li><a href="sub/intro.html">매장소개</a></li>
+                    <li><a href="sub/intro.html">놀이시설</a></li>
+                    <li><a href="sub/intro.html">시설안내</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="sub/character.html">이용안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="sub/character.html">캐릭터소개</a></li>
+                    <li><a href="sub/character.html">이용 요금</a></li>
+                    <li><a href="sub/character.html">단체 예약</a></li>
+                    <li><a href="sub/character.html">오시는 길</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="sub/notice.html">소식</a>
+                  <ul class="mdepth2">
+                    <li><a href="sub/notice.html">공지사항</a></li>
+                    <li><a href="sub/notice.html">공연 일정</a></li>
+                    <li><a href="sub/notice.html">이벤트</a></li>
+                    <li><a href="sub/notice.html">갤러리</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">고객센터</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">창업안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">창업안내</a></li>
+                    <li><a href="#">컨설팅&시공</a></li>
+                    <li><a href="#">상담신청</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- mgnb_wrap -->
+          </nav>
+
+          <ul class="login">
+            <li><a href="#">로그인 / 회원가입</a></li>
+          </ul>
+          <!-- login -->
+        </div>
+      </header>
+      <!-- header -->
+
+      <main id="main">
+        <div class="intro">
+          <div class="intro-bg"></div>
+          <div class="intro_text">
+            <p class="welcome-text">
+              <span>테</span>
+              <span>일</span>
+              <span> </span>
+              <span>마</span>
+              <span>을</span>
+              <span>에</span>
+              <span> </span>
+              <span>오</span>
+              <span>신</span>
+              <span> </span>
+              <span>걸</span>
+              <span> </span>
+              <span>환</span>
+              <span>영</span>
+              <span>해</span>
+              <span>요</span>
+              <span>!</span>
+            </p>
+
+            <p class="ready-text">
+              <span>테</span>
+              <span>일</span>
+              <span>즈</span>
+              <span>와</span>
+              <span> </span>
+              <span>함</span>
+              <span>께</span>
+              <span> </span>
+              <span>놀</span>
+              <span> </span>
+              <span>준</span>
+              <span>비</span>
+              <span> </span>
+              <span>되</span>
+              <span>셨</span>
+              <span>나</span>
+              <span>요</span>
+              <span>?</span>
+            </p>
+          </div>
+          <div class="fox_side">
+            <img src="images/main/fox_side.png" alt="인사말 여우" />
+          </div>
+        </div>
+        <!-- intro -->
+
+        <div class="character">
+          <div class="character_bg">
+            <img src="images/main/character_bg.jpg" alt="캐릭터배경" />
+
+            <a href="sub/character.html">
+              <img src="images/main/character_m.jpg" alt="캐릭터배경" />
+            </a>
+          </div>
+          <!--character_bg  -->
+
+          <div class="fox">
+            <div class="fox1">
+              <a href="sub/character.html">
+                <img
+                  class="face"
+                  src="images/main/foxface1.png"
+                  alt="캐릭터 얼굴1"
+                />
+              </a>
+
+              <span>
+                <a href="sub/character.html">
+                  <img src="images/main/fox1.png" alt="캐릭터1" />
+                </a>
+              </span>
+            </div>
+            <!-- fox1 -->
+
+            <div class="fox2">
+              <a href="sub/character.html">
+                <img
+                  class="face"
+                  src="images/main/foxface2.png"
+                  alt="캐릭터 얼굴2"
+                />
+              </a>
+
+              <span>
+                <a href="sub/character.html">
+                  <img src="images/main/fox2.png" alt="캐릭터2" />
+                </a>
+              </span>
+            </div>
+            <!-- fox2 -->
+
+            <div class="fox3">
+              <a href="sub/character.html">
+                <img
+                  class="face"
+                  src="images/main/foxface3.png"
+                  alt="캐릭터 얼굴3"
+                />
+              </a>
+
+              <span>
+                <a href="sub/character.html">
+                  <img src="images/main/fox3.png" alt="캐릭터3" />
+                </a>
+              </span>
+            </div>
+            <!-- fox3 -->
+          </div>
+          <!-- fox -->
+        </div>
+        <!-- character -->
+
+        <section class="show">
+          <div class="inner">
+            <h2>
+              공연 일정
+              <div class="balloon_all1"></div>
+              <div class="balloon_all2"></div>
+            </h2>
+
+            <div class="swiper date_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.18</span><br />
+                    <span class="date-day">월</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.19</span><br />
+                    <span class="date-day">화</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.20</span><br />
+                    <span class="date-day">수</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.21</span><br />
+                    <span class="date-day">목</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.22</span><br />
+                    <span class="date-day">금</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number saturday">11.23</span><br />
+                    <span class="date-day saturday">토</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number sunday">11.24</span><br />
+                    <span class="date-day sunday">일</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.25</span><br />
+                    <span class="date-day">월</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.26</span><br />
+                    <span class="date-day">화</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.27</span><br />
+                    <span class="date-day">수</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.28</span><br />
+                    <span class="date-day">목</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number">11.29</span><br />
+                    <span class="date-day">금</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number saturday">11.30</span><br />
+                    <span class="date-day saturday">토</span>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <span class="date-number sunday">12.01</span><br />
+                    <span class="date-day sunday">일</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <!-- swiper -->
+
+            <div class="swiper show_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <div class="img">
+                    <img src="images/main/show1.jpg" alt="구름빵" />
+                  </div>
+                  <a class="btn_more" href="#">더보기</a>
+                </li>
+                <li class="swiper-slide">
+                  <div class="img">
+                    <img src="images/main/show2.jpg" alt="깜냥" />
+                  </div>
+                  <a class="btn_more" href="#">더보기</a>
+                </li>
+                <li class="swiper-slide">
+                  <div class="img">
+                    <img src="images/main/show3.jpg" alt="마술쇼" />
+                  </div>
+                  <a class="btn_more" href="#">더보기</a>
+                </li>
+                <li class="swiper-slide">
+                  <div class="img">
+                    <img src="images/main/show4.jpg" alt="미녀와 야수" />
+                  </div>
+                  <a class="btn_more" href="#">더보기</a>
+                </li>
+                <li class="swiper-slide">
+                  <div class="img">
+                    <img src="images/main/show5.jpg" alt="마술쇼2" />
+                  </div>
+                  <a class="btn_more" href="#">더보기</a>
+                </li>
+                <li class="swiper-slide">
+                  <div class="img">
+                    <img src="images/main/show6.jpg" alt="인어공주" />
+                  </div>
+                  <a class="btn_more" href="#">더보기</a>
+                </li>
+              </ul>
+            </div>
+            <!-- swiper -->
+
+            <div class="show_prev swiper-button-prev"></div>
+            <div class="show_next swiper-button-next"></div>
+            <a class="btn_more2" href="#">더보기</a>
+
+            <div class="balloon1_left"></div>
+            <div class="balloon2_left"></div>
+            <div class="balloon4_left"></div>
+
+            <div class="balloon2_right"></div>
+            <div class="balloon3_right"></div>
+            <div class="balloon4_right"></div>
+          </div>
+          <!-- inner -->
+        </section>
+        <!-- show -->
+
+        <section class="notice">
+          <div class="inner">
+            <h2>공지사항</h2>
+
+            <ul class="notice_box">
+              <li>
+                <a href="sub/notice.html"
+                  ><img src="images/main/notice1.jpg" alt="논슬립"
+                /></a>
+              </li>
+              <li>
+                <a href="sub/notice.html"
+                  ><img src="images/main/notice2.jpg" alt="신규회원"
+                /></a>
+              </li>
+              <li>
+                <a href="sub/notice.html"
+                  ><img src="images/main/notice3.jpg" alt="기프트카드"
+                /></a>
+              </li>
+            </ul>
+            <!-- notice_box -->
+
+            <a class="btn_more2" href="sub/notice.html">더보기</a>
+          </div>
+        </section>
+        <!-- notice -->
+
+        <div class="banner_event">
+          <div class="banner_img">
+            <img src="images/main/banner.jpg" alt="이벤트배너" />
+          </div>
+        </div>
+        <!-- banner_event -->
+
+        <section class="shop">
+          <div class="inner">
+            <h2>SHOP</h2>
+
+            <div class="swiper shop_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/socks.jpg" alt="논슬립 양말" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">미끄럼 방지 양말</dt>
+                        <dd class="price">3,500원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/set.jpg" alt="세트" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">학용품 세트</dt>
+                        <dd class="price">18,900원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/tumbler.jpg" alt="텀블러" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">테일 텀블러</dt>
+                        <dd class="price">14,900원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/cup.gif" alt="머그컵" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">테일 머그컵</dt>
+                        <dd class="price">7,900원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/case.gif" alt="수저케이스" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">실리콘 수저케이스</dt>
+                        <dd class="price">4,500원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/socks.jpg" alt="논슬립 양말" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">미끄럼 방지 양말</dt>
+                        <dd class="price">3,500원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/set.jpg" alt="세트" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">학용품 세트</dt>
+                        <dd class="price">18,900원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/tumbler.jpg" alt="텀블러" />
+
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">테일 텀블러</dt>
+                        <dd class="price">14,900원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/cup.gif" alt="머그컵" />
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">테일 머그컵</dt>
+                        <dd class="price">7,900원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="images/main/case.gif" alt="수저케이스" />
+                    <div class="box">
+                      <dl>
+                        <dt class="goods">실리콘 수저케이스</dt>
+                        <dd class="price">4,500원</dd>
+                      </dl>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <a class="btn_more2" href="#">더보기</a>
+          </div>
+        </section>
+        <!-- shop -->
+
+        <div class="inside">
+          <div class="swiper inside_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="images/main/inside1.png" alt="내부1" />
+                <div class="inside_txtbox">
+                  <div class="inside_txt">
+                    <img src="images/main/logow.png" alt="로고" /><br />
+                    <a class="btn_more3" href="#">가맹점 상담신청</a>
+                  </div>
+                </div>
+                <!-- inside_txtbox -->
+              </li>
+              <li class="swiper-slide">
+                <img src="images/main/inside2.png" alt="내부2" />
+                <div class="inside_txtbox">
+                  <div class="inside_txt">
+                    <img src="images/main/logow.png" alt="로고" /><br />
+                    <a class="btn_more3" href="#">가맹점 상담신청</a>
+                  </div>
+                </div>
+                <!-- inside_txtbox -->
+              </li>
+              <li class="swiper-slide">
+                <img src="images/main/inside3.png" alt="내부3" />
+                <div class="inside_txtbox">
+                  <div class="inside_txt">
+                    <img src="images/main/logow.png" alt="로고" /><br />
+                    <a class="btn_more3" href="#">가맹점 상담신청</a>
+                  </div>
+                </div>
+                <!-- inside_txtbox -->
+              </li>
+              <li class="swiper-slide">
+                <img src="images/main/inside4.png" alt="내부4" />
+                <div class="inside_txtbox">
+                  <div class="inside_txt">
+                    <img src="images/main/logow.png" alt="로고" /><br />
+                    <a class="btn_more3" href="#">가맹점 상담신청</a>
+                  </div>
+                </div>
+                <!-- inside_txtbox -->
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- swiper -->
+        </div>
+        <!-- inside -->
+
+        <div class="guide">
+          <div class="inner">
+            <div class="guide_btn">
+              <a class="map" href="#"
+                ><img src="images/main/left_fox.png" alt="왼쪽 여우" />오시는
+                길<br />
+                안내</a
+              >
+            </div>
+
+            <div class="guide_img">
+              <img src="images/main/character_all.png" alt="캐릭터" />
+            </div>
+
+            <div class="guide_btn">
+              <a class="time" href="#"
+                >운영 시간<br />
+                안내<img src="images/main/right_fox.png" alt="오른쪽 여우"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- guide -->
+      </main>
+      <!-- main -->
+
+      <footer id="footer">
+        <div class="inner">
+          <div class="footer_logo">
+            <img src="images/main/footer_logo.png" alt="로고" />
+          </div>
+          <div class="footer_txt">
+            <address>
+              사업자 등록번호 : 349-87-15489<br />
+              E-Mail : tailcatching@naver.com<br />
+              주소 : 부산 진구 가야대로 587
+              <p class="copy">Copyright © Tail Catching All Rights Reserved</p>
+            </address>
+
+            <div class="center">
+              <span>고객센터</span><br />
+              070-4832-4578<br />
+              운영시간 : 평일 10:00 ~ 19:00
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer -->
+    </div>
+  </body>
+</html>

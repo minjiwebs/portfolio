@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>테일캐칭</title>
+
+    <!-- meta 검색에서 유용한 태그-->
+    <meta name="keywords" content="테일캐칭" />
+    <meta name="description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- opengraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="테일캐칭" />
+    <meta property="og:url" content="https://www.tailcatching.com" />
+    <meta property="og:image" content="images/common/tailcatching_img.jpg" />
+    <meta property="og:description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/main/tail.png"
+      type="image/icon"
+    />
+
+    <!-- font -->
+    <link rel="stylesheet" href="../css/font.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/sub.css" />
+
+    <!-- js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+
+    <script defer src="../js/common.js"></script>
+    <script defer src="../js/sub.js"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header id="header">
+        <div class="inner">
+          <h1>
+            <a href="../index.html">
+              <img src="../images/common/logo.png" alt="tailcatching" />
+            </a>
+          </h1>
+
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="intro.html">매장소개</a>
+                <ul class="depth2">
+                  <li><a href="intro.html">매장소개</a></li>
+                  <li><a href="intro.html">놀이시설</a></li>
+                  <li><a href="intro.html">시설안내</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="character.html">이용안내</a>
+                <ul class="depth2">
+                  <li><a href="character.html">캐릭터소개</a></li>
+                  <li><a href="character.html">이용 요금</a></li>
+                  <li><a href="character.html">단체 예약</a></li>
+                  <li><a href="character.html">오시는 길</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="notice.html">소식</a>
+                <ul class="depth2">
+                  <li><a href="notice.html">공지사항</a></li>
+                  <li><a href="notice.html">공연 일정</a></li>
+                  <li><a href="notice.html">이벤트</a></li>
+                  <li><a href="notice.html">갤러리</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">고객센터</a>
+                <ul class="depth2">
+                  <li><a href="#">문의하기</a></li>
+                  <li><a href="#">자주묻는질문</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">창업안내</a>
+                <ul class="depth2">
+                  <li><a href="#">창업안내</a></li>
+                  <li><a href="#">컨설팅&시공</a></li>
+                  <li><a href="#">상담신청</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- gnb -->
+
+            <button class="ham">전체메뉴보기</button>
+            <div class="dim"></div>
+            <div class="mgnb_wrap">
+              <ul class="mgnb">
+                <li>
+                  <a href="intro.html">매장소개</a>
+                  <ul class="mdepth2">
+                    <li><a href="intro.html">매장소개</a></li>
+                    <li><a href="intro.html">놀이시설</a></li>
+                    <li><a href="intro.html">시설안내</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="character.html">이용안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="character.html">캐릭터소개</a></li>
+                    <li><a href="character.html">이용 요금</a></li>
+                    <li><a href="character.html">단체 예약</a></li>
+                    <li><a href="character.html">오시는 길</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="notice.html">소식</a>
+                  <ul class="mdepth2">
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a href="notice.html">공연 일정</a></li>
+                    <li><a href="notice.html">이벤트</a></li>
+                    <li><a href="notice.html">갤러리</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">고객센터</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">창업안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">창업안내</a></li>
+                    <li><a href="#">컨설팅&시공</a></li>
+                    <li><a href="#">상담신청</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- mgnb_wrap -->
+          </nav>
+
+          <ul class="login">
+            <li><a href="#">로그인 / 회원가입</a></li>
+          </ul>
+          <!-- login -->
+        </div>
+      </header>
+      <!-- header -->
+
+      <div id="container">
+        <div class="sub_visual notice_sv">
+          <div class="bg3"></div>
+          <h2>
+            테일마을의<br />
+            따끈따끈한 소식들!
+          </h2>
+        </div>
+        <!-- sub_visual -->
+
+        <div class="contents">
+          <div class="inner">
+            <div class="intro notice_h3">
+              <h3>공지사항</h3>
+            </div>
+            <!--intro  -->
+
+            <div class="news_area">
+              <div class="news_slide">
+                <div class="list_box">
+                  <a href="notice.html" class="btn_menu">
+                    <img src="../images/sub3/socks.jpg" alt="NOTICE1" />
+                    <span class="title">논슬립 양말 필수 착용 안내</span>
+                    <span class="date">2025.4.11</span>
+                  </a>
+                </div>
+
+                <div class="list_box">
+                  <a href="notice.html" class="btn_menu">
+                    <img src="../images/sub3/new.jpg" alt="NOTICE2" />
+                    <span class="title">신규 회원 혜택 안내</span>
+                    <span class="date">2025.4.11</span>
+                  </a>
+                </div>
+
+                <div class="list_box">
+                  <a href="notice.html" class="btn_menu">
+                    <img src="../images/sub3/card_.png" alt="NOTICE3" />
+                    <span class="title">선불 카드 안내</span>
+                    <span class="date">2025.4.11</span>
+                  </a>
+                </div>
+
+                <div class="list_box">
+                  <a href="notice.html" class="btn_menu">
+                    <img src="../images/sub3/new.jpg" alt="NOTICE2" />
+                    <span class="title">신규 회원 혜택 안내</span>
+                    <span class="date">2025.4.11</span>
+                  </a>
+                </div>
+
+                <div class="list_box">
+                  <a href="notice.html" class="btn_menu">
+                    <img src="../images/sub3/card_.png" alt="NOTICE3" />
+                    <span class="title">선불 카드 안내</span>
+                    <span class="date">2025.4.11</span>
+                  </a>
+                </div>
+
+                <div class="list_box">
+                  <a href="notice.html" class="btn_menu">
+                    <img src="../images/sub3/socks.jpg" alt="NOTICE1" />
+                    <span class="title">논슬립 양말 필수 착용 안내</span>
+                    <span class="date">2025.4.11</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="page_list">
+              <a href="#" class="btn_first"><span>처음</span></a>
+              <a href="#" class="btn_page active">1</a>
+              <a href="#" class="btn_page">2</a>
+              <a href="#" class="btn_page">3</a>
+              <a href="#" class="btn_page">4</a>
+              <a href="#" class="btn_page">5</a>
+              <a href="#" class="btn_next"><span>다음</span></a>
+            </div>
+
+            <div class="search-container">
+              <form class="search-form" id="searchForm">
+                <select class="search-select" name="category" id="category">
+                  <option value="all">제목</option>
+                  <option value="content">내용</option>
+                  <option value="author">작성자</option>
+                </select>
+
+                <input
+                  type="text"
+                  class="search-input"
+                  name="keyword"
+                  id="keyword"
+                  placeholder="검색어를 입력하세요"
+                />
+
+                <button type="submit" class="search-btn">검색</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- notice -->
+      </div>
+      <!-- contents -->
+    </div>
+    <!-- container -->
+
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_logo">
+          <img src="../images/main/footer_logo.png" alt="로고" />
+        </div>
+        <div class="footer_txt">
+          <address>
+            사업자 등록번호 : 349-87-15489<br />
+            E-Mail : tailcatching@naver.com<br />
+            주소 : 부산 부산 진구 가야대로 587
+            <p class="copy">Copyright © Tail Catching All Rights Reserved</p>
+          </address>
+
+          <div class="center">
+            <span>고객센터</span><br />
+            070-4832-4578<br />
+            운영시간 : 평일 10:00 ~ 19:00
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+  </body>
+</html>

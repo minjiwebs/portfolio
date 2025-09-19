@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>테일캐칭</title>
+
+    <!-- meta 검색에서 유용한 태그-->
+    <meta name="keywords" content="테일캐칭" />
+    <meta name="description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- opengraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="테일캐칭" />
+    <meta property="og:url" content="https://www.tailcatching.com" />
+    <meta property="og:image" content="images/common/tailcatching_img.jpg" />
+    <meta property="og:description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/main/tail.png"
+      type="image/icon"
+    />
+
+    <!-- font -->
+    <link rel="stylesheet" href="../css/font.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/sub.css" />
+
+    <!-- js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+
+    <script defer src="../js/common.js"></script>
+    <script defer src="../js/sub.js"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header id="header">
+        <div class="inner">
+          <h1>
+            <a href="../index.html">
+              <img src="../images/common/logo.png" alt="tailcatching" />
+            </a>
+          </h1>
+
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="intro.html">매장소개</a>
+                <ul class="depth2">
+                  <li><a href="intro.html">매장소개</a></li>
+                  <li><a href="intro.html">놀이시설</a></li>
+                  <li><a href="intro.html">시설안내</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="character.html">이용안내</a>
+                <ul class="depth2">
+                  <li><a href="character.html">캐릭터소개</a></li>
+                  <li><a href="character.html">이용 요금</a></li>
+                  <li><a href="character.html">단체 예약</a></li>
+                  <li><a href="character.html">오시는 길</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="notice.html">소식</a>
+                <ul class="depth2">
+                  <li><a href="notice.html">공지사항</a></li>
+                  <li><a href="notice.html">공연 일정</a></li>
+                  <li><a href="notice.html">이벤트</a></li>
+                  <li><a href="notice.html">갤러리</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">고객센터</a>
+                <ul class="depth2">
+                  <li><a href="#">문의하기</a></li>
+                  <li><a href="#">자주묻는질문</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">창업안내</a>
+                <ul class="depth2">
+                  <li><a href="#">창업안내</a></li>
+                  <li><a href="#">컨설팅&시공</a></li>
+                  <li><a href="#">상담신청</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- gnb -->
+
+            <button class="ham">전체메뉴보기</button>
+            <div class="dim"></div>
+            <div class="mgnb_wrap">
+              <ul class="mgnb">
+                <li>
+                  <a href="intro.html">매장소개</a>
+                  <ul class="mdepth2">
+                    <li><a href="intro.html">매장소개</a></li>
+                    <li><a href="intro.html">놀이시설</a></li>
+                    <li><a href="intro.html">시설안내</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="character.html">이용안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="character.html">캐릭터소개</a></li>
+                    <li><a href="character.html">이용 요금</a></li>
+                    <li><a href="character.html">단체 예약</a></li>
+                    <li><a href="character.html">오시는 길</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="notice.html">소식</a>
+                  <ul class="mdepth2">
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a href="notice.html">공연 일정</a></li>
+                    <li><a href="notice.html">이벤트</a></li>
+                    <li><a href="notice.html">갤러리</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">고객센터</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">창업안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">창업안내</a></li>
+                    <li><a href="#">컨설팅&시공</a></li>
+                    <li><a href="#">상담신청</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- mgnb_wrap -->
+          </nav>
+
+          <ul class="login">
+            <li><a href="#">로그인 / 회원가입</a></li>
+          </ul>
+          <!-- login -->
+        </div>
+      </header>
+      <!-- header -->
+
+      <div id="container">
+        <div class="sub_visual">
+          <div class="bg1"></div>
+          <h2>
+            온 가족이 함께 즐기는 공간<br />
+            테마파크 <span class="intro_visual_span">'테일캐칭'</span>을<br
+              class="sub_visual_br"
+            />
+            소개합니다.
+          </h2>
+        </div>
+        <!-- sub_visual -->
+
+        <div class="contents">
+          <div class="inner">
+            <div class="intro">
+              <h3>매장소개</h3>
+              <h4
+                class="wow animate__animated animate__fadeInDown"
+                data-wow-delay="0.2s"
+              >
+                <span>테일캐칭</span>은 어떤 곳일까요?
+              </h4>
+              <p>
+                <span
+                  class="wow animate__animated animate__fadeInUp"
+                  data-wow-delay="0.2s"
+                  >다양한 무대와 캐릭터 존을 통해</span
+                ><br />
+                <span
+                  class="wow animate__animated animate__fadeInUp"
+                  data-wow-delay="0.4s"
+                  >아이들이 <strong>지루할 틈이 없는 즐거움</strong>을 경험할 수
+                  있는 공간입니다.</span
+                ><br />
+                <span
+                  class="wow animate__animated animate__fadeInUp"
+                  data-wow-delay="0.6s"
+                  >대표 캐릭터를 중심으로 다채로운 컨셉의 캐릭터 존이 마련되어
+                  있으며,</span
+                ><br />
+                <span
+                  class="wow animate__animated animate__fadeInUp"
+                  data-wow-delay="0.8s"
+                  >각 존에서 아이들이 캐릭터와 함께 노는 듯한
+                  <strong>생동감 있는 체험</strong>을 제공합니다.</span
+                ><br />
+                <span
+                  class="wow animate__animated animate__fadeInUp"
+                  data-wow-delay="1s"
+                  >캐릭터 존뿐만 아니라 <strong>다양한 체험형 공연</strong>을
+                  구성하여 아이들을 서로 연결시키고</span
+                ><br />
+                <span
+                  class="wow animate__animated animate__fadeInUp"
+                  data-wow-delay="1.2s"
+                  >엄마, 아빠도 함께 즐길 수 있는 놀이문화 장입니다.</span
+                >
+              </p>
+            </div>
+            <!-- intro -->
+          </div>
+
+          <div class="intro_villageimg">
+            <!--           <img src="../images/sub1/subtxt_bg.png" alt="마을배경"> -->
+          </div>
+          <!-- intro_villageimg -->
+
+          <div class="inner">
+            <div class="intro_txt">
+              <div
+                class="intro_txt1 wow animate__animated animate__fadeInUp"
+                data-wow-delay="0.2s"
+              >
+                <h5>
+                  아이들과 부모님<br />
+                  모두 즐길 수 있는 공간
+                </h5>
+                <img src="../images/sub1/rest.png" alt="rest" />
+                <p>
+                  아이들뿐만 아니라 부모님도 함께 즐길 수 있는<br />
+                  다양한 체험 프로그램과 볼거리를 준비했습니다.<br />
+                  각 캐릭터 존은 개별 테마에 맞춰 아이들이<br />
+                  원하는 놀이에 몰입할 수 있으며,<br />
+                  부모님께는 휴식과 편안한 시간을 제공합니다.<br />
+                </p>
+              </div>
+              <!-- 1 -->
+
+              <div
+                class="intro_txt2 wow animate__animated animate__fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <h5>
+                  다채로운 공연과<br />
+                  체험형 연극 프로그램
+                </h5>
+                <img src="../images/sub1/show.png" alt="show" />
+                <p>
+                  꼬리를 잡기 위해 빙글빙글 도는 놀이처럼,<br />
+                  카페 곳곳에 아이들이 지루할 틈 없이 돌아다니며<br />
+                  새로운 활동을 즐길 수 있는 다양한 놀이 구조물과<br />
+                  프로그램이 배치되어 있습니다.<br />
+                </p>
+              </div>
+              <!-- 2 -->
+
+              <div
+                class="intro_txt3 wow animate__animated animate__fadeInUp"
+                data-wow-delay="0.6s"
+              >
+                <h5>
+                  끝없이 즐길 수 있는<br />
+                  다양한 놀이
+                </h5>
+                <img src="../images/sub1/play.png" alt="play" />
+                <p>
+                  마술쇼, 버블쇼, 벌룬쇼 뿐만 아니라<br />
+                  구연 동화, 뮤지컬과 같은 연극형 프로그램을 통해<br />
+                  아이들이 직접 참여할 수 있는 몰입형 체험을 제공합니다.<br />
+                  무대에서 펼쳐지는 생동감 있는 이야기를<br />
+                  경험하면서 상상력을 자극하고,<br />
+                  직접 주인공이 되어보는 즐거움을 느낄 수 있습니다.<br />
+                </p>
+              </div>
+              <!-- 3 -->
+            </div>
+            <!-- intro_txt -->
+          </div>
+        </div>
+        <!-- contents -->
+      </div>
+      <!-- container -->
+
+      <footer id="footer">
+        <div class="inner">
+          <div class="footer_logo">
+            <img src="../images/main/footer_logo.png" alt="로고" />
+          </div>
+          <div class="footer_txt">
+            <address>
+              사업자 등록번호 : 349-87-15489<br />
+              E-Mail : tailcatching@naver.com<br />
+              주소 : 부산 진구 가야대로 587
+              <p class="copy">Copyright © Tail Catching All Rights Reserved</p>
+            </address>
+
+            <div class="center">
+              <span>고객센터</span><br />
+              070-4832-4578<br />
+              운영시간 : 평일 10:00 ~ 19:00
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer -->
+    </div>
+  </body>
+</html>

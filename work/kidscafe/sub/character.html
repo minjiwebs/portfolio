@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>테일캐칭</title>
+
+    <!-- meta 검색에서 유용한 태그-->
+    <meta name="keywords" content="테일캐칭" />
+    <meta name="description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- opengraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="테일캐칭" />
+    <meta property="og:url" content="https://www.tailcatching.com" />
+    <meta property="og:image" content="images/common/tailcatching_img.jpg" />
+    <meta property="og:description" content="지루할 틈 없는 즐거움, 테일캐칭" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/main/tail.png"
+      type="image/icon"
+    />
+
+    <!-- font -->
+    <link rel="stylesheet" href="../css/font.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/sub.css" />
+
+    <!-- js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+
+    <script defer src="../js/common.js"></script>
+    <script defer src="../js/sub.js"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header id="header">
+        <div class="inner">
+          <h1>
+            <a href="../index.html">
+              <img src="../images/common/logo.png" alt="tailcatching" />
+            </a>
+          </h1>
+
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="intro.html">매장소개</a>
+                <ul class="depth2">
+                  <li><a href="intro.html">매장소개</a></li>
+                  <li><a href="intro.html">놀이시설</a></li>
+                  <li><a href="intro.html">시설안내</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="character.html">이용안내</a>
+                <ul class="depth2">
+                  <li><a href="character.html">캐릭터소개</a></li>
+                  <li><a href="character.html">이용 요금</a></li>
+                  <li><a href="character.html">단체 예약</a></li>
+                  <li><a href="character.html">오시는 길</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="notice.html">소식</a>
+                <ul class="depth2">
+                  <li><a href="notice.html">공지사항</a></li>
+                  <li><a href="notice.html">공연 일정</a></li>
+                  <li><a href="notice.html">이벤트</a></li>
+                  <li><a href="notice.html">갤러리</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">고객센터</a>
+                <ul class="depth2">
+                  <li><a href="#">문의하기</a></li>
+                  <li><a href="#">자주묻는질문</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">창업안내</a>
+                <ul class="depth2">
+                  <li><a href="#">창업안내</a></li>
+                  <li><a href="#">컨설팅&시공</a></li>
+                  <li><a href="#">상담신청</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- gnb -->
+
+            <button class="ham">전체메뉴보기</button>
+            <div class="dim"></div>
+            <div class="mgnb_wrap">
+              <ul class="mgnb">
+                <li>
+                  <a href="intro.html">매장소개</a>
+                  <ul class="mdepth2">
+                    <li><a href="intro.html">매장소개</a></li>
+                    <li><a href="intro.html">놀이시설</a></li>
+                    <li><a href="intro.html">시설안내</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="character.html">이용안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="character.html">캐릭터소개</a></li>
+                    <li><a href="character.html">이용 요금</a></li>
+                    <li><a href="character.html">단체 예약</a></li>
+                    <li><a href="character.html">오시는 길</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="notice.html">소식</a>
+                  <ul class="mdepth2">
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a href="notice.html">공연 일정</a></li>
+                    <li><a href="notice.html">이벤트</a></li>
+                    <li><a href="notice.html">갤러리</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">고객센터</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">창업안내</a>
+                  <ul class="mdepth2">
+                    <li><a href="#">창업안내</a></li>
+                    <li><a href="#">컨설팅&시공</a></li>
+                    <li><a href="#">상담신청</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- mgnb_wrap -->
+          </nav>
+
+          <ul class="login">
+            <li><a href="#">로그인 / 회원가입</a></li>
+          </ul>
+          <!-- login -->
+        </div>
+      </header>
+      <!-- header -->
+
+      <div id="container">
+        <div class="sub_visual character_sv">
+          <div class="bg2"></div>
+          <h2>
+            <div class="h2_txt">
+              <img src="../images/sub2/txt.png" alt="오늘 놀고 내일 또 만나" />
+              테일 마을 친구들을 소개합니다
+            </div>
+            <div class="h2_img">
+              <img src="../images/sub2/intro.png" alt="인사여우" />
+            </div>
+          </h2>
+        </div>
+        <!-- sub_visual -->
+
+        <div class="contents">
+          <div class="inner">
+            <div class="intro">
+              <h3 class="character_h3">캐릭터 소개</h3>
+              <h4 class="character_h4">
+                태일 캐칭의 대표 캐릭터입니다.<br />
+                아이들의 좋은 놀이 친구로서, 다양한 모습으로 매장에서 어린이들을
+                반기고 있습니다.
+              </h4>
+            </div>
+            <!-- intro -->
+          </div>
+
+          <div class="character">
+            <div class="character1">
+              <div
+                class="inner wow animate__animated animate__bounceInLeft"
+                data-wow-delay="0.3s"
+              >
+                <div class="character1_img">
+                  <img src="../images/sub2/fox1.png" alt="여우1" />
+                </div>
+
+                <dl class="character_txt">
+                  <dt>모든 친구들이 좋아하는 해피 바이러스</dt>
+                  <dd class="txtC_1">' 루루 '</dd>
+                  <p>
+                    <strong>긍정적이고 천진 매력을 가지고 있는 친구</strong
+                    >예요. 항상 밝은 모습으로 친구들의 웃는 모습을 좋아해요.
+                    모두를 웃게 만드는 매력으로 친근하게 다가가
+                    <strong
+                      >다른 친구들이 쉽게 마음을 열도록 도와주는 따뜻한
+                      친구</strong
+                    >랍니다. 예쁘고 아기자기한 것을 좋아해요!
+                  </p>
+                </dl>
+              </div>
+            </div>
+            <!-- 1 -->
+
+            <div class="character2">
+              <div
+                class="inner wow animate__animated animate__bounceInRight"
+                data-wow-delay="0.6s"
+              >
+                <div class="character2_img">
+                  <img src="../images/sub2/fox2.png" alt="여우2" />
+                </div>
+
+                <dl class="character_txt">
+                  <dt>언제나 활기찬 개구쟁이</dt>
+                  <dd class="txtC_2">' 차차 '</dd>
+                  <p>
+                    <strong
+                      >모험심이 강하고 활동적인 것을 좋아하는 활기 넘치는
+                      친구</strong
+                    >예요. 하루 종일 놀아도 또 놀고 싶은 노는 걸 너무 좋아하는
+                    친구랍니다. 어려운 일에도 두려움 없이 도전하고,
+                    <strong
+                      >항상 자신감이 넘쳐나 친구들에게도 긍정적인 에너지를
+                      전해주는 친구</strong
+                    >예요. 특히 어려움을 극복해야 하는 순간에는 늘 선두에 서서
+                    친구들에게 용기를 불어 넣어 준답니다.
+                  </p>
+                </dl>
+              </div>
+            </div>
+            <!-- 2 -->
+
+            <div class="character3">
+              <div
+                class="inner wow animate__animated animate__bounceInLeft"
+                data-wow-delay="0.9s"
+              >
+                <div class="character3_img">
+                  <img src="../images/sub2/fox3.png" alt="여우3" />
+                </div>
+
+                <dl class="character_txt">
+                  <dt>모르는게 없는 척척박사</dt>
+                  <dd class="txtC_3">' 토토 '</dd>
+                  <p>
+                    <strong>궁금한 것이 많아 늘 호기심이 가득한 친구</strong
+                    >예요. 궁금증을 해결하기 위해서라면 무엇이든 하는
+                    친구랍니다. 문제를 해결하거나 깊이 생각해야 하는 상황이
+                    생기면 친구들이 가장 먼저 찾는 친구예요.
+                    <strong
+                      >늘 해결책을 찾아 친구들에게 도움을 주는 착한 친구</strong
+                    >랍니다.
+                  </p>
+                </dl>
+              </div>
+            </div>
+            <!-- 3 -->
+          </div>
+          <!-- character -->
+        </div>
+        <!-- inner -->
+      </div>
+      <!-- contents -->
+    </div>
+    <!-- container -->
+
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_logo">
+          <img src="../images/main/footer_logo.png" alt="로고" />
+        </div>
+        <div class="footer_txt">
+          <address>
+            사업자 등록번호 : 349-87-15489<br />
+            E-Mail : tailcatching@naver.com<br />
+            주소 : 부산 진구 가야대로 587
+            <p class="copy">Copyright © Tail Catching All Rights Reserved</p>
+          </address>
+
+          <div class="center">
+            <span>고객센터</span><br />
+            070-4832-4578<br />
+            운영시간 : 평일 10:00 ~ 19:00
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+  </body>
+</html>
