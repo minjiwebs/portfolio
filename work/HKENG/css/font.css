@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+
+/* NanumSquareNeo */
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../font/NanumSquareNeo-aLt.ttf") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../font/NanumSquareNeo-bRg.ttf") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../font/NanumSquareNeo-cBd.ttf") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../font/NanumSquareNeo-dEb.ttf") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  src: url("../font/NanumSquareNeo-eHv.ttf") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
