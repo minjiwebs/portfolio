@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Park Minji Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+
+    <style>
+      html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background: #fff;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+      }
+
+      .quick_menu {
+        width: 80px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+      }
+
+      .quick_menu li a {
+        display: block;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(15px);
+        border: none;
+        color: white;
+        padding: 30px 0;
+        font-size: 2rem;
+        font-weight: 600;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .quick_menu li:nth-child(1) a {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 20px 0px;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+
+      .quick_menu li:nth-child(2) a {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 20px 0px;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+
+      .quick_menu li a:hover {
+        background: rgba(0, 0, 0, 0.6);
+        transform: translateX(-5px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+      }
+
+      @media screen and (max-width: 1024px) {
+        .quick_menu {
+          width: 60px;
+        }
+
+        .quick_menu li:nth-child(1) a {
+          font-size: 1.4rem;
+          padding: 15px 10px;
+        }
+        .quick_menu li:nth-child(2) a {
+          font-size: 1.4rem;
+          padding: 15px 10px;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .quick_menu {
+          width: 50px;
+        }
+
+        .quick_menu li:nth-child(1) a {
+          font-size: 1.2rem;
+          padding: 15px 10px;
+        }
+        .quick_menu li:nth-child(2) a {
+          font-size: 1.2rem;
+          padding: 15px 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <img
+      src="../images/style_guide/web/kidecafe_w.png"
+      alt="키즈카페 스타일가이드"
+    />
+
+    <ul class="quick_menu">
+      <li><a href="../work/kidscafe/index.html">View</a></li>
+      <li><a href="#">TOP</a></li>
+    </ul>
+  </body>
+</html>

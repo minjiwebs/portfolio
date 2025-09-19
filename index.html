@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Park Minji Portfolio</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting-cells.css"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="https://unpkg.com/lenis@1.1.19/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="js/plugin/scrolla.jquery.min.js"></script>
+
+    <script defer src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="cursor"></div>
+
+    <div class="wrap">
+      <header id="header">
+        <h1><a href="index.html" class="logo">MinJi Portfolio</a></h1>
+
+        <nav>
+          <ul class="gnb">
+            <li><a href="#sec_Intro" data-splitting>Intro</a></li>
+            <li><a href="#sec_Graphic" data-splitting>Graphic</a></li>
+            <li><a href="#sec_Web" data-splitting>Web</a></li>
+            <li><a href="#sec_About" data-splitting>About</a></li>
+            <li><a href="#sec_Contact" data-splitting>Contact</a></li>
+          </ul>
+
+          <button class="ham">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="mgnb_wrap">
+            <ul class="m_gnb">
+              <li><a href="#sec_Intro">Intro</a></li>
+              <li><a href="#sec_Graphic">Graphic</a></li>
+              <li><a href="#sec_Web">Web</a></li>
+              <li><a href="#sec_About">About</a></li>
+              <li><a href="#sec_Contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- header -->
+
+      <main id="main">
+        <div class="dim"></div>
+
+        <section class="visual animate" data-animate="motion">
+          <div class="maintitle">
+            <div class="line1">
+              <p><span>Web Design & Publisher</span></p>
+              <br />
+              <p><span>Portfolio</span></p>
+            </div>
+          </div>
+
+          <div class="svgAni">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="Layer_1"
+              data-name="Layer 1"
+              viewBox="0 0 1000 1000"
+            >
+              <defs>
+                <style>
+                  #svgAni01 {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 16px;
+                  }
+
+                  #svgAni02 {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 14px;
+                  }
+
+                  #svgAni03 {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 11px;
+                  }
+
+                  #svgAni04 {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 11px;
+                  }
+
+                  #svgAni05 {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 11px;
+                  }
+                </style>
+              </defs>
+
+              <path
+                id="svgAni01"
+                d="M3181.66667,2799.08726c6.88889,8.44444,4.88889,23.55555,4.88889,23.55555-4.02707,37.58592-19.97008,55.66053-29.68817,63.46023a21.07187,21.07187,0,0,1-29.39526-3.2778c-26.29386-31.925-5.63091-100.39756-5.63091-100.39756-5.94154,30.73189-15.63556,53.19911-24.90977,68.94346a102.59242,102.59242,0,0,1-37.61205,36.89076c-18.08451,10.33816-50.86234,35.488-65.47818,87.2698-11.92725,42.25656,8.67644,53.158,28.34065,54.79251,21.39361,1.77828,40.74556-12.5604,45.87319-33.40641,17.81846-72.43971-32.13976-220.93032-32.13976-220.93032-6.59438,109.42385-40.00378,128.3761-54.0045,131.476a11.45874,11.45874,0,0,1-12.46394-5.54078c-4.2632-7.61252-7.66655-24.568,1.28325-61.94655,15.11111-63.11111-8.88889-69.25-8.88889-69.25-48,19.63885-57.33333,113.69448-57.33333,113.69448-14.66667-30.66666,0-108.43311,0-108.43311-22.66667,115.56688-60,109.76645-60,109.76645-38.66667-6.66667-13.33333-103.32625-13.33333-103.32625-11.91213,69.85414-41.415,116.69463-52.07669,131.82488a7.171,7.171,0,0,1-11.28276.58794c-8.43915-9.78432-19.90526-39.87524-9.97389-132.41282q.64482-6.00824,1.15114-11.70144c6.63477-74.44679-3.87327-109.22153-13.54908-125.20394a12.35992,12.35992,0,0,0-21.80126,1.1454c-19.027,41.44913-23.13413,129.75289-23.13413,129.75289s4-73.33333,0,5.84095c-3.59885,71.234-35.97632,112.27394-42.07407,118.0109a.615.615,0,0,1-1.038-.454c.06511-10.08426-2.477-78.64633-22.22129-115.53005-24.10209-45.02445-29.31831-93.06723-30.40728-114.79671a2.73751,2.73751,0,0,0-5.30158-.80524c-14.95032,39.11967-12.93066,100.04122-10.95531,128.33232a196.17852,196.17852,0,0,1-3.31829,53.011c-11.03546,53.91407-35.35088,55.92623-35.35088,55.92623s-48,14.46458-61.33333-68.59746,43.11111-78.71574,43.11111-78.71574"
+                transform="translate(-2478.4696 -2631.52698)"
+              />
+              <path
+                id="svgAni02"
+                d="M2836.37021,2717.5481"
+                transform="translate(-2478.4696 -2631.52698)"
+              />
+              <path
+                id="svgAni03"
+                d="M2839.20826,2718.43977c-4.25355,2.29629-7.9754,5.99358-9.51735,10.66243a10.22636,10.22636,0,0,0,6.3355,13.1356,12.61759,12.61759,0,0,0,13.81507-4.30452c3.87354-5.12894,2.29735-11.08049-.19859-16.406-1.36439-2.91116-5.54957-3.65378-8.145-2.1357-2.98305,1.74481-3.5052,5.22295-2.1357,8.145a10.20834,10.20834,0,0,1,.99257,2.7366c.09595.64813-.27254,1.01417.05063.44735.17017-.29846-.82528.43152-.29454.19369q.64561.016-.50535.017a.52253.52253,0,0,1,.41912.15031,13.23122,13.23122,0,0,1,.95943,1.79678c-.18036-.16611.53825-1.16364.833-1.55859a11.416,11.416,0,0,1,3.40048-2.59926c6.74485-3.64123.74015-13.92442-6.00931-10.2807Z"
+                transform="translate(-2478.4696 -2631.52698)"
+              />
+              <path
+                id="svgAni04"
+                d="M3029.31346,2714.41411c-4.03751,2.657-7.69785,6.5494-8.70406,11.43759-1.14142,5.545,1.60751,11.32589,7.39981,12.71732a12.49747,12.49747,0,0,0,13.66253-5.52591c3.01344-5.223,1.07772-10.94924-1.82086-15.71269-3.97743-6.53642-14.27828-.56022-10.2807,6.00931a17.73519,17.73519,0,0,1,1.4781,2.60235q.0504,1.25127.28677.78866.01173,1.13919-.01174.44756c.086-.26649.22928-.20579.44314-.30842a1.466,1.466,0,0,1-1.04246.15133c.11836.11394,1.03351.79927,1.34912,1.01291.5266.35646-.30509,1.07666.17812.14592a8.67476,8.67476,0,0,1,3.07154-3.48524,6.0891,6.0891,0,0,0,2.1357-8.145c-1.55954-2.6663-5.44749-3.91086-8.145-2.13569Z"
+                transform="translate(-2478.4696 -2631.52698)"
+              />
+              <path
+                id="svgAni05"
+                d="M3119.22452,2719.28714c-3.72528,3.535-6.34674,8.66738-5.70378,13.90446a10.79924,10.79924,0,0,0,10.58918,9.73073c5.19374.07086,10.2925-3.22632,11.6638-8.36295,1.5505-5.80789-1.86888-10.78986-5.59873-14.83942-5.20233-5.64825-13.60538,2.78805-8.419,8.419a25.69917,25.69917,0,0,1,2.49292,3.327q.08581-.0624.03748-.07358-.4715-.13881.69152-.67043c-.27525.23652-.50179.59753-.868.29419.243.20126,1.11189.99555,1.24046,1.04343-.32329-.12041-.08576-.71718-.03111-.90709a8.24884,8.24884,0,0,1,2.32424-3.44629c5.56949-5.28507-2.85952-13.69455-8.419-8.419Z"
+                transform="translate(-2478.4696 -2631.52698)"
+              />
+            </svg>
+          </div>
+        </section>
+
+        <div class="eveyonetext">
+          <div class="eveyonetext_tit en">
+            <h2>to Everyone</h2>
+          </div>
+
+          <div id="sec_Intro"></div>
+          <div class="eveyonetext_txt textbox">
+            <span class="text_Intro mask">
+              <span class="text">
+                안녕하세요. <br />
+                방문해주셔서 진심으로 감사합니다. <br />
+                저는 소통을 소중히 여기며,<br />
+                작은 부분도 놓치지 않고 정성을 담아 디자인합니다.<br />
+                항상 사용자를 최우선으로 생각하는 디자이너가 되겠습니다.<br />
+                끊임없이 배우고 성장하며,<br />
+                저만의 색을 지닌 디자이너로 나아가고 싶습니다.
+                <br /><br />
+                Hello,<br />
+                Thank you so much for visiting.<br />
+                I value communication and design with care, <br />paying
+                attention to every detail.<br />
+                I always put users first and strive to become a thoughtful
+                designer.<br />
+                By constantly learning and growing,<br />
+                I hope to develop a style that is uniquely my own.
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <!-- section01 -->
+        <section class="con01">
+          <div class="videoWrap">
+            <video autoplay muted loop playsinline>
+              <source src="images/AdobeStock_701693464.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="title en">
+            <h3>
+              <span>Creativeness</span> is all you need <br />
+              for <span>digital design</span>
+            </h3>
+          </div>
+        </section>
+
+        <!-- section02 -->
+
+        <div id="sec_Graphic"></div>
+        <section class="con02 con02_line">
+          <div
+            class="con02_title en con_line"
+            data-aos="fade-up"
+            data-aos-delay="0"
+          >
+            <h4>Graphic Design</h4>
+          </div>
+
+          <!-- Graphic -->
+          <ul class="workList">
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a href="#" data-popup="content-cards">
+                <div class="imgBox">
+                  <img src="images/sns_card.jpg" alt="카드뉴스" />
+                </div>
+                <div class="textBox">
+                  <p>Content Cards <span>카드뉴스</span></p>
+                </div>
+              </a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="300">
+              <a href="#" data-popup="information-page">
+                <div class="imgBox">
+                  <img src="images/Information_Page1.jpg" alt="제품안내" />
+                </div>
+                <div class="textBox">
+                  <p>Information Page <span>제품 안내</span></p>
+                </div>
+              </a>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="500">
+              <a href="#" data-popup="PDP">
+                <div class="imgBox">
+                  <img src="images/PDP_img2.jpg" alt="PDP" />
+                </div>
+                <div class="textBox">
+                  <p>PDP <span>상세페이지</span></p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- BI/BX -->
+        <section class="con03 con02">
+          <div
+            class="con02_title en con_line"
+            data-aos="fade-up"
+            data-aos-delay="0"
+          >
+            <h4>BI/BX Design</h4>
+          </div>
+
+          <ul class="workList">
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a href="#" data-popup="kidsCafe">
+                <div class="imgBox">
+                  <img src="images/Tail_Catching_bibx.png" alt="키즈카페" />
+                </div>
+                <div class="textBox">
+                  <p>
+                    Branding&nbsp; | &nbsp;Tail Catching <span>키즈카페</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a href="#" data-popup="festival">
+                <div class="imgBox">
+                  <img src="images/festival_bibx.png" alt="별빛축제" />
+                </div>
+                <div class="textBox">
+                  <p>
+                    Redesign&nbsp; | &nbsp;보현산 별빛 축제
+                    <span>축제 리디자인</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <!-- <li data-aos="fade-up" data-aos-delay="500">
+              <a href="#" data-popup="content-cards-2">
+                <div class="imgBox">
+                  <img src="images/12345.png" alt="카드뉴스" />
+                </div>
+                <div class="textBox">
+                  <p>Branding&nbsp; | &nbsp;스스스 <span>디저트카페</span></p>
+                </div>
+              </a>
+            </li> -->
+          </ul>
+        </section>
+
+        <!-- 팝업 오버레이 -->
+        <div id="workPopup" class="popup-overlay">
+          <div class="popup work-popup">
+            <button class="close-btn">&times;</button>
+
+            <!-- Content Cards 팝업 -->
+            <div class="popup-content" data-popup="content-cards">
+              <div class="popup-image">
+                <img src="images/sns card/card_1.png" alt="card_1" />
+                <img src="images/sns card/card_2.png" alt="card_2" />
+                <img src="images/sns card/card_3.png" alt="card_3" />
+                <img src="images/sns card/card_4.png" alt="card_4" />
+                <img src="images/sns card/card_5.png" alt="card_5" />
+                <img src="images/sns card/card_6.png" alt="card_6" />
+                <img src="images/sns card/card_7.png" alt="card_7" />
+                <img src="images/sns card/card_8.png" alt="card_8" />
+                <img src="images/sns card/card_9.png" alt="card_9" />
+              </div>
+            </div>
+
+            <!-- Information Page 팝업 -->
+            <div class="popup-content" data-popup="information-page">
+              <div class="popup-image">
+                <img src="images/Information Page/infor_1.png" alt="infor_1" />
+                <img src="images/Information Page/infor_2.jpg" alt="infor_2" />
+                <img src="images/Information Page/infor_3.jpg" alt="infor_3" />
+                <img src="images/Information Page/infor_4.jpg" alt="infor_4" />
+                <img src="images/Information Page/infor_5.jpg" alt="infor_5" />
+                <img src="images/Information Page/infor_6.jpg" alt="infor_6" />
+                <img src="images/Information Page/infor_7.jpg" alt="infor_7" />
+                <img src="images/Information Page/infor_8.jpg" alt="infor_8" />
+                <img src="images/Information Page/infor_9.png" alt="infor_9" />
+                <img
+                  src="images/Information Page/infor_10.jpg"
+                  alt="infor_10"
+                />
+                <img
+                  src="images/Information Page/infor_11.png"
+                  alt="infor_11"
+                />
+                <img
+                  src="images/Information Page/infor_12.jpg"
+                  alt="infor_12"
+                />
+                <img
+                  src="images/Information Page/infor_13.jpg"
+                  alt="infor_13"
+                />
+              </div>
+            </div>
+
+            <!-- PDP 팝업 -->
+            <div class="popup-content" data-popup="PDP">
+              <div class="popup-image">
+                <img src="images/PDP/PDP1.jpg" alt="PDP1" />
+                <img src="images/PDP/PDP2.jpg" alt="PDP2" />
+              </div>
+            </div>
+
+            <!-- 브랜딩 팝업 -->
+            <div class="popup-content" data-popup="kidsCafe">
+              <div class="popup-image">
+                <img
+                  src="images/style_guide/graphic/kidecafe_g.png"
+                  alt="kidsCafe"
+                />
+              </div>
+            </div>
+
+            <div class="popup-content" data-popup="festival">
+              <div class="popup-image">
+                <img
+                  src="images/style_guide/graphic/festival_g.png"
+                  alt="kidsCafe"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section03 -->
+        <div id="sec_Web"></div>
+        <div class="con04_title en" data-aos="fade-up">
+          <h4>
+            WEB <br />
+            PORTFOLIO
+          </h4>
+        </div>
+        <section class="con04 section-four">
+          <!-- 키즈카페 -->
+          <div class="con04_box js-pin panel con04_box1">
+            <div class="prj_head">
+              <div class="prj_wrap">
+                <p>Branding Project</p>
+                <div class="prj_name">
+                  <div class="type">
+                    <span>Responsive</span>
+                    <span>Direct, Design, Coding</span>
+                    <span>개인 작업 100%</span>
+                  </div>
+                  <p>Tail Catching<sup>키즈카페</sup></p>
+                </div>
+                <div class="link">
+                  <a href="work/kidscafe/index.html" target="_blank"
+                    >VISIT SITE ></a
+                  >
+                  <a href="sub/sub01.html" target="_blank">STYLE GUIDE ></a>
+                </div>
+              </div>
+            </div>
+            <div class="prj_image">
+              <img src="images/tailcatching.png" alt="tailcatching" />
+            </div>
+          </div>
+
+          <!-- 축제 -->
+          <div class="con04_box js-pin panel con04_box2">
+            <div class="prj_head">
+              <div class="prj_wrap">
+                <p>Redesign Project</p>
+                <div class="prj_name">
+                  <div class="type">
+                    <span>Responsive</span>
+                    <span>Direct, Design, Coding</span>
+                    <span>개인 작업 100%</span>
+                  </div>
+                  <p>보현산 별빛축제<sup>지역 축제</sup></p>
+                </div>
+                <div class="link">
+                  <a href="work/festival/index.html" target="_blank"
+                    >VISIT SITE ></a
+                  >
+
+                  <a href="sub/sub02.html" target="_blank">STYLE GUIDE ></a>
+                </div>
+              </div>
+            </div>
+            <div class="prj_image">
+              <img src="images/Festival_Redesign.png" alt="Festival_Redesign" />
+            </div>
+          </div>
+
+          <!-- 스스스 -->
+          <!-- <div class="con04_box js-pin panel con04_box3">
+            <div class="prj_head">
+              <div class="prj_wrap">
+                <p>Branding Project</p>
+                <div class="prj_name">
+                  <div class="type">
+                    <span>Responsive</span>
+                    <span>Direct, Design, Coding</span>
+                    <span>개인 작업 100%</span>
+                  </div>
+                  <p>스스스<sup>디저트 카페</sup></p>
+                </div>
+                <div class="link">
+                  <a
+                    href="https://www.lespace.co.kr/"
+                    class="cursor-able"
+                    target="_blank"
+                    >VISIT SITE ></a
+                  >
+
+                  <a
+                    href="https://www.lespace.co.kr/"
+                    class="cursor-able"
+                    target="_blank"
+                    >STYLE GUIDE ></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="prj_image">
+              <img src="images/sss.png" alt="스스스" />
+            </div>
+          </div> -->
+
+          <!-- 루미나 -->
+          <div class="con04_box js-pin panel con04_box1">
+            <div class="prj_head">
+              <div class="prj_wrap">
+                <p>Branding Project</p>
+                <div class="prj_name">
+                  <div class="type">
+                    <span>Cafe24</span>
+                    <span>Direct, Design, Coding</span>
+                    <span>개인 작업 100%</span>
+                  </div>
+                  <p>Lumina<sup>온라인 스토어</sup></p>
+                </div>
+                <div class="link">
+                  <a href="https://minioneer.cafe24.com" target="루미나"
+                    >VISIT SITE ></a
+                  >
+
+                  <a href="sub/sub03.html" target="_blank">STYLE GUIDE ></a>
+                </div>
+              </div>
+            </div>
+            <div class="prj_image">
+              <img src="images/Lumina.jpg" alt="루미나" />
+            </div>
+          </div>
+
+          <!-- 현강 -->
+          <div class="con04_box js-pin panel con04_box4">
+            <div class="prj_head">
+              <div class="prj_wrap">
+                <p>Team Project</p>
+                <div class="prj_name">
+                  <div class="type">
+                    <span>Responsive</span>
+                    <span>Direct, Design, Coding</span>
+                    <span>개인 작업 40%</span>
+                  </div>
+                  <p>'현강' 홍보사이트<sup>기업 홍보</sup></p>
+                </div>
+                <div class="link">
+                  <a href="work/HKENG/index.html" target="_blank"
+                    >VISIT SITE ></a
+                  >
+
+                  <a href="sub/sub05.html" target="_blank">STYLE GUIDE ></a>
+                </div>
+              </div>
+            </div>
+            <div class="prj_image">
+              <img src="images/HyukKang.png" alt="HyukKang" />
+            </div>
+          </div>
+        </section>
+
+        <div id="sec_Marquee "></div>
+        <!-- sec_Marquee -->
+        <div class="sec_Marquee en">
+          <!-- 첫 번째 marquee -->
+          <div class="marquee-section">
+            <div class="loop-container">
+              <div class="marquee-content">
+                <span class="marquee-item"
+                  >Thank you sincerely for visiting</span
+                >
+              </div>
+              <div class="marquee-content">
+                <span class="marquee-item"
+                  >Thank you sincerely for visiting</span
+                >
+              </div>
+              <div class="marquee-content">
+                <span class="marquee-item"
+                  >Thank you sincerely for visiting</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- 두 번째 marquee -->
+          <div class="marquee-section">
+            <div class="loop-container reserve">
+              <div class="marquee-content">
+                <span class="marquee-item"
+                  >It means a lot to have you here</span
+                >
+              </div>
+              <div class="marquee-content">
+                <span class="marquee-item"
+                  >It means a lot to have you here</span
+                >
+              </div>
+              <div class="marquee-content">
+                <span class="marquee-item"
+                  >It means a lot to have you here</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section04 -->
+
+        <div id="sec_About"></div>
+        <section class="con05 about">
+          <div class="name">
+            <p>박민지 Park Minji</p>
+          </div>
+
+          <div class="about_txt">
+            <div class="left-section kr">
+              <div class="profile-image">
+                <img src="images/me.png" alt="Profile Image" />
+              </div>
+              <div class="contact-info">
+                <p>Birth. 2000.04.25</p>
+                <p>Phone. 010 9700 1663</p>
+                <p>Email. minioneer@naver.com</p>
+              </div>
+            </div>
+
+            <div class="about_txt_line"></div>
+
+            <div class="middle-section">
+              <div class="interested">
+                <p class="about_txt_01 en">INTERESTED IN</p>
+                <p class="about_txt_02 kr">웹디자인, 퍼블리셔, 마케팅</p>
+              </div>
+              <div class="character">
+                <p class="about_txt_01 en">CHARACTER</p>
+                <p class="about_txt_02 kr">
+                  열정이 넘치는, 섬세하게 표현하는,<br />긍정적인, 꾸준히
+                  배우려는,<br />포기하지 않는, 소통을 소중히 여기는 사람
+                </p>
+              </div>
+              <div class="education">
+                <p class="about_txt_01 en">EDUCATION</p>
+                <p class="about_txt_02 kr">
+                  <span>2025</span> 부산IT교육센터 <br />
+                  <sub></sub>반응형 웹디자인&웹퍼블리셔 <br />
+                  <span>2023</span> 동서대학교 경영학전공 졸업 <br />
+                  <span>2019</span> 금정여자고등학교 졸업
+                </p>
+              </div>
+            </div>
+
+            <div class="right-section">
+              <div class="about_txt_01 skills">
+                <p class="en">Skills</p>
+                <ul>
+                  <li>Photoshop</li>
+                  <li>Illustrator</li>
+                  <li>Figma</li>
+                  <li>Procreate</li>
+                  <li>Html / Css</li>
+                  <li>JavaScript</li>
+                  <li>Blender</li>
+                  <li>Premiere</li>
+                  <li>After Effects</li>
+                  <li>Cafe 24 / Gnuboard</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- section05 -->
+      </main>
+      <!-- main -->
+
+      <!-- footer -->
+      <div id="sec_Contact"></div>
+
+      <footer>
+        <div class="top">
+          <p class="en">WORK <br />TOGETHER</p>
+        </div>
+        <div class="bottom">
+          <div class="connect">
+            <p>Contact</p>
+            <p>010.9700.1663</p>
+            <p>minioneer@naver.com</p>
+          </div>
+
+          <div class="cp">
+            <p>Thank you for watching <br />until the end.</p>
+            <p class="copyright">Copyright © Park Minji</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- wrap -->
+
+    <script>
+      Splitting();
+    </script>
+  </body>
+</html>
